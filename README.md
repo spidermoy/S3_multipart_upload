@@ -2,7 +2,7 @@
 # AMAZON S3 AWS MULTI-PART UPLOAD
 
 
-Upload files to S3 by using Haskell parallelism. By first, the file is split into several 
+Multipart upload of a file to Amazon S3 with Haskell. By first, the file is split into several 
 parts, and then, each part is uploaded in parallel.
 If the upload of a part fails, the program will try to upload it automatically.
 You need to have the S3-client configured.
